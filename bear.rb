@@ -14,15 +14,15 @@ class Bear
     return "Grrrr"
   end
 
-  def add_eaten_fish
-    @fish_pop.unshift(dead_fish)
+  def add_eaten_fish(dead_fish)
+    @stomach << (dead_fish)
 
   end
 
   def stomach_fish_count
     return @stomach.count
   end
-
+  
 
 end
 

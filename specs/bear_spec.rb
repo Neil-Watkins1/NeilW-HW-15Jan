@@ -29,7 +29,7 @@ class TestBear < MiniTest::Test
   end
 
   def test_bear_talk
-assert_equal("Grrrr", @Bear.bear_talk())
+    assert_equal("Grrrr", @Bear.bear_talk())
   end
 end
 
